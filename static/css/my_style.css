@@ -1,0 +1,86 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+body {
+   background-image: url('http://www.printawallpaper.com/upload/designs/white_crumpled_paper_detail.jpg');
+   /*background-color: #cccccc;*/
+}
+
+#page1 {
+    text-align: center;
+    color: green;
+}
+p {
+    font-family: "Times New Roman", Times, serif;
+}
+
+#yes {
+    font-family: Arial, Helvetica, sans-serif; 
+    
+
+}
+
+.img1 {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    display: block;
+    /*float: center;*/
+    text-align: center;
+
+
+}
+
+#running{
+    width: 30px;
+    height: auto;
+}
+#border {
+    border-color: red;
+    border-style: solid;
+    border-width: 5px;
+}
+
+#page2 {
+text-align: center;
+    color: blue;
+}
+
+#page3 {
+    text-align: center;
+    color: red;
+
+}
+
+#gym {
+   
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+}
+
+#text {
+    font-family: "Times New Roman", Times, serif;
+
+}

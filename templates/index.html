@@ -1,0 +1,64 @@
+<html>
+  <head>
+  
+    <title> Gym Buddy </title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/my_style.css')}}">
+    <!-- {{url_for('static', filename='css/css.css')}}"> -->
+  </head>
+  <body>
+  <div class="jumbotron text-center">
+      <div id="gym">
+      <h1 style="color: white;">GYM buddy</h1>
+      </div>
+      <h4> In this website we'll be helping you lead a healthier life.
+      We've all been there, you're motivated, you're excited and you're ready to get in shape.
+      But you dont exactly know where to start, that's what we're here for!
+      Just take this quick quiz and you'll be on your way to ahealthier happier life...
+  </div>
+<div id="text">
+  <form action="{{url_for('home')}}" method='POST'>
+	<h5>What gender are you?</h5> 
+	  <input type="radio" name="gender" value="male" checked> Male<br>
+	  <input type="radio" name="gender" value="female"> Female<br>
+	  <input type="radio" name="gender" value="other"> Other<br>
+
+	<h5>How old are you?</h5> 
+	  <input type="radio" name="age" value="13-25" checked> 13-25<br>
+	  <input type="radio" name="age" value="25-45"> 25-65 <br>
+	  <input type="radio" name="age" value="45-65"> 45-65 <br>
+	  <input type="radio" name="age" value="65+"> 65+ <br>
+
+	<h5> What's your body goal?</h5> 
+	  <input type="radio" name="goal" value="Lose weight" checked> Lose weight<br>
+	  <input type="radio" name="goal" value="Gain weight"> Gain weight<br>
+	  <input type="radio" name="goal" value="Stay at the same weight"> Stay the same weight <br>
+
+	<h5> Level of activity per week </h5> 
+	  <input type="radio" name="activity" value="3 days a week" checked> 3 days a week<br>
+	  <input type="radio" name="activity" value="4 days a week"> 4 days a week<br>
+	  <input type="radio" name="activity" value="5 days a week"> 5 days a week <br>
+
+	<h5>NOTE: while starting off it is best not to go every day of the week</h5> <br>
+	  
+
+	<h5> Would you rather workout inside or outside</h5> 
+	  <input type="radio" name="env" value="inside" checked> Inside<br>
+	  <input type="radio" name="env" value="outside"> Outside<br>
+
+	<h5> What level of intensity would you like? </h5> 
+	  <input type="radio" name="intensity" value="intense" checked> Intense <br>
+	  <input type="radio" name="intensity" value="moderete"> Moderete<br>
+	  <input type="radio" name="intensity" value="easy"> Easy <br>
+
+	<h5>NOTE: You can make any workout as difficult as you'd like but some workouts are considered easy to start with than others</h5> <br>
+	<h5> Do you have any workout preference? </h5> 
+	  
+	  <input type="radio" name="preference" value="Weight lifting" checked> Weight lifting <br>
+	  <input type="radio" name="preference" value="Calisthenics"> Calisthenics <br>
+	  <input type="radio" name="preference" value="Cardio"> Cardio <br>
+	  <input type="submit" value="Submit"> <br>
+</form>
+</div>
+</h4></div>
+  </body>
+</html>	
